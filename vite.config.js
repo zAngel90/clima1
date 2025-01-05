@@ -5,6 +5,8 @@ export default defineConfig({
   plugins: [react()],
   base: '/clima/',
   build: {
-    outDir: 'dist'
+    outDir: 'dist',
+    emptyOutDir: true,
+    sourcemap: false
   }
 }) 
